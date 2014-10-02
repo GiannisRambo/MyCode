@@ -1,0 +1,2223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{770cf374-c947-49d6-bcf6-9484efd4a5bb}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{654d64d3-6dd1-4345-a10a-a14440b9d9e6}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Field">
+      <UniqueIdentifier>{9c1ae518-b82b-46a3-86e6-254095c7eb44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\Field Source Files">
+      <UniqueIdentifier>{9e1376c4-508d-4ab8-a85c-faf59d3a93b7}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+    <Filter Include="Field\Field Header Files">
+      <UniqueIdentifier>{a8a114e8-46b2-4056-9fbd-da649b22b32b}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Message">
+      <UniqueIdentifier>{a83380f7-0b02-4c81-b58a-970e0cab34dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\Message Header Files">
+      <UniqueIdentifier>{2559134c-3c8c-4241-b2eb-fc88037c19dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\Message Header Files\fix40">
+      <UniqueIdentifier>{c1cbb5db-6c86-45dd-a12b-8ce56f47ddb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\Message Header Files\fix41">
+      <UniqueIdentifier>{f9b151f2-5af3-45ff-980e-36f1b6186eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\Message Header Files\fix42">
+      <UniqueIdentifier>{759f57e6-1d5b-425f-9f05-2415928dab06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\Message Header Files\fix43">
+      <UniqueIdentifier>{ceee5f09-7c2f-473e-935d-d3416c08fbed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\Message Header Files\fix44">
+      <UniqueIdentifier>{0a119ffe-a503-44de-9e13-90216f88cdcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\Message Header Files\fix50">
+      <UniqueIdentifier>{e9e68552-19c7-4506-9990-fafbddc8adeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\Message Header Files\fixt11">
+      <UniqueIdentifier>{660aabc4-7570-4d68-bf5c-39882d6a743b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\Message Header Files\fix50sp1">
+      <UniqueIdentifier>{3c8cb1ab-23f5-435b-9e11-85fa88086d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\Message Header Files\fix50sp2">
+      <UniqueIdentifier>{53757e60-04dc-44e2-8b5e-b9e10dd2d638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\Message Source Files">
+      <UniqueIdentifier>{824afb14-7112-4b81-880f-13bb42f661b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{3a6c7aeb-de5b-49a4-b85c-407dcdbc1d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket\Socket Source Files">
+      <UniqueIdentifier>{3a33917d-3cc2-42fb-92fa-01ce01cbb30b}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+    <Filter Include="Socket\Socket Header Files">
+      <UniqueIdentifier>{cdad367c-27d0-49dc-948a-c1e311534fc5}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Storage">
+      <UniqueIdentifier>{ecb4f8d8-b6ce-416b-b46d-987997c5cb65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storage\Storage Source Files">
+      <UniqueIdentifier>{b2ae9983-71ef-4205-a322-03ca5372c9fa}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+    <Filter Include="Storage\Storage Header Files">
+      <UniqueIdentifier>{5ea563a1-d1c1-4e4a-8467-ebb678befdab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Acceptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CallStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Initiator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBXML_DOMDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MSXML_DOMDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="strptime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeRange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldMap.cpp">
+      <Filter>Field\Field Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldTypes.cpp">
+      <Filter>Field\Field Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDictionary.cpp">
+      <Filter>Message\Message Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDictionaryProvider.cpp">
+      <Filter>Message\Message Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Message\Message Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Message\Message Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageSorters.cpp">
+      <Filter>Message\Message Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpConnection.cpp">
+      <Filter>Socket\Socket Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpMessage.cpp">
+      <Filter>Socket\Socket Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpParser.cpp">
+      <Filter>Socket\Socket Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpServer.cpp">
+      <Filter>Socket\Socket Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketAcceptor.cpp">
+      <Filter>Socket\Socket Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketConnection.cpp">
+      <Filter>Socket\Socket Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketConnector.cpp">
+      <Filter>Socket\Socket Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketInitiator.cpp">
+      <Filter>Socket\Socket Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketMonitor.cpp">
+      <Filter>Socket\Socket Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketServer.cpp">
+      <Filter>Socket\Socket Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadedSocketAcceptor.cpp">
+      <Filter>Socket\Socket Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadedSocketConnection.cpp">
+      <Filter>Socket\Socket Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadedSocketInitiator.cpp">
+      <Filter>Socket\Socket Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLog.cpp">
+      <Filter>Storage\Storage Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStore.cpp">
+      <Filter>Storage\Storage Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Storage\Storage Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageStore.cpp">
+      <Filter>Storage\Storage Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLLog.cpp">
+      <Filter>Storage\Storage Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLStore.cpp">
+      <Filter>Storage\Storage Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NullStore.cpp">
+      <Filter>Storage\Storage Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OdbcLog.cpp">
+      <Filter>Storage\Storage Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OdbcStore.cpp">
+      <Filter>Storage\Storage Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostgreSQLLog.cpp">
+      <Filter>Storage\Storage Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostgreSQLStore.cpp">
+      <Filter>Storage\Storage Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LIBXML_DOMDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeRange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FixFieldNumbers.h">
+      <Filter>Field\Field Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FixFields.h">
+      <Filter>Field\Field Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FixValues.h">
+      <Filter>Field\Field Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDictionaryProvider.h">
+      <Filter>Message\Message Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\Advertisement.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\Allocation.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\AllocationACK.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\DontKnowTrade.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\Email.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\ExecutionReport.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\Heartbeat.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\IndicationofInterest.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\ListCancelRequest.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\ListExecute.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\ListStatus.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\ListStatusRequest.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\Logon.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\Logout.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\Message.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\MessageCracker.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\NewOrderList.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\NewOrderSingle.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\News.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\OrderCancelReject.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\OrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\OrderCancelRequest.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\OrderStatusRequest.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\Quote.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\QuoteRequest.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\Reject.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\ResendRequest.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\SequenceReset.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix40\TestRequest.h">
+      <Filter>Message\Message Header Files\fix40</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\Advertisement.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\Allocation.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\AllocationACK.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\DontKnowTrade.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\Email.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\ExecutionReport.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\Heartbeat.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\IndicationofInterest.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\ListCancelRequest.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\ListExecute.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\ListStatus.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\ListStatusRequest.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\Logon.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\Logout.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\Message.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\MessageCracker.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\NewOrderList.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\NewOrderSingle.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\News.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\OrderCancelReject.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\OrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\OrderCancelRequest.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\OrderStatusRequest.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\Quote.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\QuoteRequest.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\Reject.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\ResendRequest.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\SequenceReset.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\SettlementInstructions.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix41\TestRequest.h">
+      <Filter>Message\Message Header Files\fix41</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\Advertisement.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\Allocation.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\AllocationACK.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\BidRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\BidResponse.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\BusinessMessageReject.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\DontKnowTrade.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\Email.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\ExecutionReport.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\Heartbeat.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\IndicationofInterest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\ListCancelRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\ListExecute.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\ListStatus.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\ListStatusRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\ListStrikePrice.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\Logon.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\Logout.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\MarketDataIncrementalRefresh.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\MarketDataRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\MarketDataRequestReject.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\MarketDataSnapshotFullRefresh.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\MassQuote.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\Message.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\MessageCracker.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\NewOrderList.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\NewOrderSingle.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\News.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\OrderCancelReject.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\OrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\OrderCancelRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\OrderStatusRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\Quote.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\QuoteAcknowledgement.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\QuoteCancel.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\QuoteRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\QuoteStatusRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\Reject.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\ResendRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\SecurityDefinition.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\SecurityDefinitionRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\SecurityStatus.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\SecurityStatusRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\SequenceReset.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\SettlementInstructions.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\TestRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\TradingSessionStatus.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix42\TradingSessionStatusRequest.h">
+      <Filter>Message\Message Header Files\fix42</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\Advertisement.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\Allocation.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\AllocationAck.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\BidRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\BidResponse.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\BusinessMessageReject.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\CrossOrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\CrossOrderCancelRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\DerivativeSecurityList.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\DerivativeSecurityListRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\DontKnowTrade.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\Email.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\ExecutionReport.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\Heartbeat.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\IOI.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\ListCancelRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\ListExecute.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\ListStatus.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\ListStatusRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\ListStrikePrice.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\Logon.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\Logout.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\MarketDataIncrementalRefresh.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\MarketDataRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\MarketDataRequestReject.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\MarketDataSnapshotFullRefresh.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\MassQuote.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\MassQuoteAcknowledgement.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\Message.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\MessageCracker.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\MultilegOrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\NewOrderCross.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\NewOrderList.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\NewOrderMultileg.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\NewOrderSingle.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\News.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\OrderCancelReject.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\OrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\OrderCancelRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\OrderMassCancelReport.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\OrderMassCancelRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\OrderMassStatusRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\OrderStatusRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\Quote.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\QuoteCancel.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\QuoteRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\QuoteRequestReject.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\QuoteStatusReport.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\QuoteStatusRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\RegistrationInstructions.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\RegistrationInstructionsResponse.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\Reject.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\ResendRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\RFQRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\SecurityDefinition.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\SecurityDefinitionRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\SecurityList.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\SecurityListRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\SecurityStatus.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\SecurityStatusRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\SecurityTypeRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\SecurityTypes.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\SequenceReset.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\SettlementInstructions.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\TestRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\TradeCaptureReport.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\TradeCaptureReportRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\TradingSessionStatus.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix43\TradingSessionStatusRequest.h">
+      <Filter>Message\Message Header Files\fix43</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\Advertisement.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\AllocationInstruction.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\AllocationInstructionAck.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\AllocationReport.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\AllocationReportAck.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\AssignmentReport.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\BidRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\BidResponse.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\BusinessMessageReject.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\CollateralAssignment.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\CollateralInquiry.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\CollateralInquiryAck.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\CollateralReport.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\CollateralRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\CollateralResponse.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\Confirmation.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\ConfirmationAck.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\ConfirmationRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\CrossOrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\CrossOrderCancelRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\DerivativeSecurityList.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\DerivativeSecurityListRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\DontKnowTrade.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\Email.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\ExecutionReport.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\Heartbeat.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\IOI.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\ListCancelRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\ListExecute.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\ListStatus.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\ListStatusRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\ListStrikePrice.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\Logon.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\Logout.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\MarketDataIncrementalRefresh.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\MarketDataRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\MarketDataRequestReject.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\MarketDataSnapshotFullRefresh.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\MassQuote.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\MassQuoteAcknowledgement.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\Message.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\MessageCracker.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\MultilegOrderCancelReplace.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\NetworkCounterpartySystemStatusRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\NetworkCounterpartySystemStatusResponse.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\NewOrderCross.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\NewOrderList.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\NewOrderMultileg.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\NewOrderSingle.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\News.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\OrderCancelReject.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\OrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\OrderCancelRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\OrderMassCancelReport.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\OrderMassCancelRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\OrderMassStatusRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\OrderStatusRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\PositionMaintenanceReport.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\PositionMaintenanceRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\PositionReport.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\Quote.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\QuoteCancel.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\QuoteRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\QuoteRequestReject.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\QuoteResponse.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\QuoteStatusReport.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\QuoteStatusRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\RegistrationInstructions.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\RegistrationInstructionsResponse.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\Reject.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\RequestForPositions.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\RequestForPositionsAck.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\ResendRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\RFQRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\SecurityDefinition.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\SecurityDefinitionRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\SecurityList.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\SecurityListRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\SecurityStatus.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\SecurityStatusRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\SecurityTypeRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\SecurityTypes.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\SequenceReset.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\SettlementInstructionRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\SettlementInstructions.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\TestRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\TradeCaptureReport.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\TradeCaptureReportAck.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\TradeCaptureReportRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\TradeCaptureReportRequestAck.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\TradingSessionStatus.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\TradingSessionStatusRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\UserRequest.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix44\UserResponse.h">
+      <Filter>Message\Message Header Files\fix44</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\AdjustedPositionReport.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\Advertisement.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\AllocationInstruction.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\AllocationInstructionAck.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\AllocationInstructionAlert.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\AllocationReport.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\AllocationReportAck.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\AssignmentReport.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\BidRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\BidResponse.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\BusinessMessageReject.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\CollateralAssignment.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\CollateralInquiry.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\CollateralInquiryAck.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\CollateralReport.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\CollateralRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\CollateralResponse.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\Confirmation.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\ConfirmationAck.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\ConfirmationRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\ContraryIntentionReport.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\CrossOrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\CrossOrderCancelRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\DerivativeSecurityList.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\DerivativeSecurityListRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\DontKnowTrade.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\Email.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\ExecutionAcknowledgement.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\ExecutionReport.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\IOI.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\ListCancelRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\ListExecute.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\ListStatus.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\ListStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\ListStrikePrice.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\MarketDataIncrementalRefresh.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\MarketDataRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\MarketDataRequestReject.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\MarketDataSnapshotFullRefresh.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\MassQuote.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\MassQuoteAcknowledgement.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\Message.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\MessageCracker.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\MultilegOrderCancelReplace.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\NetworkCounterpartySystemStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\NetworkCounterpartySystemStatusResponse.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\NewOrderCross.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\NewOrderList.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\NewOrderMultileg.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\NewOrderSingle.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\News.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\OrderCancelReject.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\OrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\OrderCancelRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\OrderMassCancelReport.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\OrderMassCancelRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\OrderMassStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\OrderStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\PositionMaintenanceReport.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\PositionMaintenanceRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\PositionReport.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\Quote.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\QuoteCancel.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\QuoteRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\QuoteRequestReject.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\QuoteResponse.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\QuoteStatusReport.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\QuoteStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\RegistrationInstructions.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\RegistrationInstructionsResponse.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\RequestForPositions.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\RequestForPositionsAck.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\RFQRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\SecurityDefinition.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\SecurityDefinitionRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\SecurityDefinitionUpdateReport.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\SecurityList.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\SecurityListRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\SecurityListUpdateReport.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\SecurityStatus.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\SecurityStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\SecurityTypeRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\SecurityTypes.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\SettlementInstructionRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\SettlementInstructions.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\TradeCaptureReport.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\TradeCaptureReportAck.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\TradeCaptureReportRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\TradeCaptureReportRequestAck.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\TradingSessionList.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\TradingSessionListRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\TradingSessionStatus.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\TradingSessionStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\UserRequest.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50\UserResponse.h">
+      <Filter>Message\Message Header Files\fix50</Filter>
+    </ClInclude>
+    <ClInclude Include="fixt11\Heartbeat.h">
+      <Filter>Message\Message Header Files\fixt11</Filter>
+    </ClInclude>
+    <ClInclude Include="fixt11\Logon.h">
+      <Filter>Message\Message Header Files\fixt11</Filter>
+    </ClInclude>
+    <ClInclude Include="fixt11\Logout.h">
+      <Filter>Message\Message Header Files\fixt11</Filter>
+    </ClInclude>
+    <ClInclude Include="fixt11\Message.h">
+      <Filter>Message\Message Header Files\fixt11</Filter>
+    </ClInclude>
+    <ClInclude Include="fixt11\MessageCracker.h">
+      <Filter>Message\Message Header Files\fixt11</Filter>
+    </ClInclude>
+    <ClInclude Include="fixt11\Reject.h">
+      <Filter>Message\Message Header Files\fixt11</Filter>
+    </ClInclude>
+    <ClInclude Include="fixt11\ResendRequest.h">
+      <Filter>Message\Message Header Files\fixt11</Filter>
+    </ClInclude>
+    <ClInclude Include="fixt11\SequenceReset.h">
+      <Filter>Message\Message Header Files\fixt11</Filter>
+    </ClInclude>
+    <ClInclude Include="fixt11\TestRequest.h">
+      <Filter>Message\Message Header Files\fixt11</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\AdjustedPositionReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\Advertisement.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\AllocationInstruction.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\AllocationInstructionAck.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\AllocationInstructionAlert.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\AllocationReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\AllocationReportAck.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\ApplicationMessageReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\ApplicationMessageRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\ApplicationMessageRequestAck.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\AssignmentReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\BidRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\BidResponse.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\BusinessMessageReject.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\CollateralAssignment.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\CollateralInquiry.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\CollateralInquiryAck.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\CollateralReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\CollateralRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\CollateralResponse.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\Confirmation.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\ConfirmationAck.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\ConfirmationRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\ContraryIntentionReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\CrossOrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\CrossOrderCancelRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\DerivativeSecurityList.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\DerivativeSecurityListRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\DerivativeSecurityListUpdateReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\DontKnowTrade.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\Email.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\ExecutionAcknowledgement.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\ExecutionReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\IOI.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\ListCancelRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\ListExecute.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\ListStatus.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\ListStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\ListStrikePrice.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\MarketDataIncrementalRefresh.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\MarketDataRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\MarketDataRequestReject.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\MarketDataSnapshotFullRefresh.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\MarketDefinition.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\MarketDefinitionRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\MarketDefinitionUpdateReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\MassQuote.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\MassQuoteAcknowledgement.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\Message.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\MessageCracker.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\MultilegOrderCancelReplace.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\NetworkCounterpartySystemStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\NetworkCounterpartySystemStatusResponse.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\NewOrderCross.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\NewOrderList.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\NewOrderMultileg.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\NewOrderSingle.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\News.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\OrderCancelReject.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\OrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\OrderCancelRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\OrderMassActionReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\OrderMassActionRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\OrderMassCancelReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\OrderMassCancelRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\OrderMassStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\OrderStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\PositionMaintenanceReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\PositionMaintenanceRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\PositionReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\Quote.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\QuoteCancel.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\QuoteRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\QuoteRequestReject.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\QuoteResponse.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\QuoteStatusReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\QuoteStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\RegistrationInstructions.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\RegistrationInstructionsResponse.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\RequestForPositions.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\RequestForPositionsAck.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\RFQRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\SecurityDefinition.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\SecurityDefinitionRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\SecurityDefinitionUpdateReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\SecurityList.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\SecurityListRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\SecurityListUpdateReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\SecurityStatus.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\SecurityStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\SecurityTypeRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\SecurityTypes.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\SettlementInstructionRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\SettlementInstructions.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\SettlementObligationReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\TradeCaptureReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\TradeCaptureReportAck.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\TradeCaptureReportRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\TradeCaptureReportRequestAck.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\TradingSessionList.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\TradingSessionListRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\TradingSessionListUpdateReport.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\TradingSessionStatus.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\TradingSessionStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\UserNotification.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\UserRequest.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp1\UserResponse.h">
+      <Filter>Message\Message Header Files\fix50sp1</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\AdjustedPositionReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\Advertisement.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\AllocationInstruction.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\AllocationInstructionAck.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\AllocationInstructionAlert.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\AllocationReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\AllocationReportAck.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\ApplicationMessageReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\ApplicationMessageRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\ApplicationMessageRequestAck.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\AssignmentReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\BidRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\BidResponse.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\BusinessMessageReject.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\CollateralAssignment.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\CollateralInquiry.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\CollateralInquiryAck.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\CollateralReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\CollateralRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\CollateralResponse.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\Confirmation.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\ConfirmationAck.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\ConfirmationRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\ContraryIntentionReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\CrossOrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\CrossOrderCancelRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\DerivativeSecurityList.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\DerivativeSecurityListRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\DerivativeSecurityListUpdateReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\DontKnowTrade.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\Email.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\ExecutionAcknowledgement.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\ExecutionReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\IOI.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\ListCancelRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\ListExecute.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\ListStatus.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\ListStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\ListStrikePrice.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\MarketDataIncrementalRefresh.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\MarketDataRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\MarketDataRequestReject.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\MarketDataSnapshotFullRefresh.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\MarketDefinition.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\MarketDefinitionRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\MarketDefinitionUpdateReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\MassQuote.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\MassQuoteAcknowledgement.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\Message.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\MessageCracker.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\MultilegOrderCancelReplace.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\NetworkCounterpartySystemStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\NetworkCounterpartySystemStatusResponse.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\NewOrderCross.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\NewOrderList.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\NewOrderMultileg.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\NewOrderSingle.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\News.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\OrderCancelReject.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\OrderCancelReplaceRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\OrderCancelRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\OrderMassActionReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\OrderMassActionRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\OrderMassCancelReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\OrderMassCancelRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\OrderMassStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\OrderStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\PartyDetailsListReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\PartyDetailsListRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\PositionMaintenanceReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\PositionMaintenanceRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\PositionReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\Quote.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\QuoteCancel.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\QuoteRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\QuoteRequestReject.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\QuoteResponse.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\QuoteStatusReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\QuoteStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\RegistrationInstructions.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\RegistrationInstructionsResponse.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\RequestForPositions.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\RequestForPositionsAck.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\RFQRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\SecurityDefinition.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\SecurityDefinitionRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\SecurityDefinitionUpdateReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\SecurityList.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\SecurityListRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\SecurityListUpdateReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\SecurityStatus.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\SecurityStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\SecurityTypeRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\SecurityTypes.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\SettlementInstructionRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\SettlementInstructions.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\SettlementObligationReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\StreamAssignmentReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\StreamAssignmentReportACK.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\StreamAssignmentRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\TradeCaptureReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\TradeCaptureReportAck.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\TradeCaptureReportRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\TradeCaptureReportRequestAck.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\TradingSessionList.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\TradingSessionListRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\TradingSessionListUpdateReport.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\TradingSessionStatus.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\TradingSessionStatusRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\UserNotification.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\UserRequest.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="fix50sp2\UserResponse.h">
+      <Filter>Message\Message Header Files\fix50sp2</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpConnection.h">
+      <Filter>Socket\Socket Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpMessage.h">
+      <Filter>Socket\Socket Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpParser.h">
+      <Filter>Socket\Socket Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpServer.h">
+      <Filter>Socket\Socket Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Storage\Storage Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseConnectionID.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseConnectionPool.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLConnection.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullStore.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OdbcConnection.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OdbcLog.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OdbcStore.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostgreSQLConnection.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostgreSQLLog.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostgreSQLStore.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\config_windows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Acceptor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Application.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CallStack.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dictionary.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DOMDocument.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Event.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Exceptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FlexLexer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="index.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Initiator.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MSXML_DOMDocument.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Mutex.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Parser.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Queue.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Responder.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Session.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SessionFactory.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SessionID.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SessionSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SessionState.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="strptime.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Field.h">
+      <Filter>Field\Field Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FieldConvertors.h">
+      <Filter>Field\Field Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FieldMap.h">
+      <Filter>Field\Field Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FieldNumbers.h">
+      <Filter>Field\Field Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Fields.h">
+      <Filter>Field\Field Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FieldTypes.h">
+      <Filter>Field\Field Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Values.h">
+      <Filter>Field\Field Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DataDictionary.h">
+      <Filter>Message\Message Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Group.h">
+      <Filter>Message\Message Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Message.h">
+      <Filter>Message\Message Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MessageCracker.h">
+      <Filter>Message\Message Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Messages.h">
+      <Filter>Message\Message Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MessageSorters.h">
+      <Filter>Message\Message Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SocketAcceptor.h">
+      <Filter>Socket\Socket Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SocketConnection.h">
+      <Filter>Socket\Socket Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SocketConnector.h">
+      <Filter>Socket\Socket Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SocketInitiator.h">
+      <Filter>Socket\Socket Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SocketMonitor.h">
+      <Filter>Socket\Socket Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SocketServer.h">
+      <Filter>Socket\Socket Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ThreadedSocketAcceptor.h">
+      <Filter>Socket\Socket Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ThreadedSocketConnection.h">
+      <Filter>Socket\Socket Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ThreadedSocketInitiator.h">
+      <Filter>Socket\Socket Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileLog.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileStore.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Log.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MessageStore.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MySQLLog.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MySQLStore.h">
+      <Filter>Storage\Storage Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
