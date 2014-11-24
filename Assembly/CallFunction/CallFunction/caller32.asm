@@ -1,0 +1,162 @@
+; I have already done the following for this project, but if you decide that you want to incorporate an
+; Assembly language file in your own project do the following: (I'm sure the instructions are very similar
+; for other versions of Visual Studio - I used 2010)
+;
+; 1 - Right click on the project and select "Build Customizations".
+; 2 - Check the "masm" option to enable Microsoft Assembler support from within Visual Studio.
+; 3 - Right click on each Assembly language file, select properties and choose "Microsoft Macro Assembler"
+;     for the "item type" 
+
+
+.586              ;Target processor.  Use instructions for Pentium class machines
+.MODEL FLAT, C    ;Use the flat memory model. Use C calling conventions
+;.STACK            ;Define a stack segment of 1KB (Not required for this example)
+;.DATA             ;Create a near data segment.  Local variables are declared after
+                  ;this directive (Not required for this example)
+.CODE             ;Indicates the start of a code segment.
+
+func_0 PROC
+	push ebp
+	mov ebp, esp
+; Save state of all registers
+	push ebx
+	push esi
+	push edi
+
+; Function Body
+	mov eax, 300
+
+; Restore state of all registers
+	pop edi
+	pop esi
+	pop ebx
+; Restore Stack and Base Pointer
+	mov esp, ebp
+	pop ebp
+	ret
+func_0 ENDP
+
+func_1 PROC
+	push ebp
+	mov ebp, esp
+	push ebx
+	push esi
+	push edi
+
+; Function Body
+	mov eax, dword ptr [ebp+8]
+	imul eax, eax, 3
+
+; Restore state of all registers
+	pop edi
+	pop esi
+	pop ebx
+; Restore Stack and Base Pointer
+	mov esp, ebp
+	pop ebp
+	ret
+func_1 ENDP
+
+func_2 PROC
+	push ebp
+	mov ebp, esp
+	push ebx
+	push esi
+	push edi
+
+; Function Body
+	mov eax, dword ptr [ebp+8]
+	add eax, dword ptr [ebp+12]
+	;imul eax, eax, 3
+
+; Restore state of all registers
+	pop edi
+	pop esi
+	pop ebx
+; Restore Stack and Base Pointer
+	mov esp, ebp
+	pop ebp
+	ret
+func_2 ENDP
+
+func_3 PROC
+	push ebp
+	mov ebp, esp
+	push ebx
+	push esi
+	push edi
+
+; Function Body
+	mov eax, dword ptr [ebp+8]
+	add eax, dword ptr [ebp+12]
+	add eax, dword ptr [ebp+16]
+	;imul eax, eax, 3
+
+; Restore state of all registers
+	pop edi
+	pop esi
+	pop ebx
+; Restore Stack and Base Pointer
+	mov esp, ebp
+	pop ebp
+	ret
+func_3 ENDP
+
+call_function PROC
+	push ebp
+	mov ebp, esp
+	push ebx
+	push esi
+	push edi
+
+; Function Body
+	; [ebp+8] = address of function to call
+	; [ebp+12] = number of arguments
+	; [ebp+16] = address of array with arguments
+
+; If statement
+; Move # of arguments into ecx register
+	mov ecx, [ebp+12]
+; Move parameter address into eax register
+	mov eax, [ebp+16]
+
+; If 0 parameters, skip directly to call the function
+	cmp ecx, 0
+	jz call_target_func
+
+loop_again:
+; Read one array parameter and place onto stack
+	push dword ptr[eax]
+; Increment pointer to parameters pointer array
+	add eax, 4
+; Increment stack pointer because we just 
+;	add esp, 4
+	loop loop_again
+
+; Call the function
+call_target_func:
+	call dword ptr [ebp+8]
+
+; Restore proper size of stack
+	mov ecx, [ebp+12]
+	cmp ecx, 0
+	jz return_to_caller
+
+restore_stack:
+	pop ebx
+	loop restore_stack;
+
+return_to_caller:
+
+; Restore state of all registers
+	pop edi
+	pop esi
+	pop ebx
+; Restore Stack and Base Pointer
+	mov esp, ebp
+	pop ebp
+	ret
+
+call_function ENDP
+
+END
