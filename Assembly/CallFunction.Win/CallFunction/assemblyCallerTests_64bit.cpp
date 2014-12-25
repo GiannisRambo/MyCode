@@ -43,6 +43,7 @@ extern "C" int func_5 ( int, int, int, int, int );
 extern "C" int func_6 ( int, int, int, int, int, int );
 
 extern "C" int call_function ( void *f_ptr, int n_args, int *args );
+extern "C" int call_function64 ( void *f_ptr, int n_args, int *args );
 
 /*
 #include <iostream>
@@ -129,10 +130,10 @@ TEST_CASE ( "Calling 6-parameter assembly function", "[c-method-3-parm]" ) {
 
 TEST_CASE ( "Calling C function from assembly function", "[c-asm-c-0-parm]" ) {
 	int res = function_six ( 18, 1, 2, 10, 11, 9 );
-	res = function_six ( 18, 1, 2, 10, 11, 9 );
-	res = call_function ( &function_zero, 0, NULL );
-	res = call_function ( &function_zero, 0, NULL );
-	REQUIRE ( call_function ( &function_zero, 0, NULL ) == 200 );
+	//res = function_six ( 18, 1, 2, 10, 11, 9 );
+	//res = call_function ( &function_zero, 0, NULL );
+	//res = call_function ( &function_zero, 0, NULL );
+	REQUIRE ( call_function64 ( &function_zero, 0, NULL ) == 200 );
 }
 /*
 TEST_CASE ( "Calling C function with 1 parameter from assembly function with C-Calling convention", "[c-asm-c-1-parm]" ) {
