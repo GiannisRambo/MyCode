@@ -23,6 +23,10 @@ void __cdecl Set32bitIntegerArray(int32_t inI32Array[], int32_t len);
  */
 void __cdecl Get32bitIntegerArray(int32_t out32biIntegerArray[], 
 	int32_t *len);
+/*!
+ * GetError
+ */
+int32_t __cdecl GetError(void);
 
 MgErr __cdecl LVDLLStatus(char *errStr, int errStrLen, void *module);
 

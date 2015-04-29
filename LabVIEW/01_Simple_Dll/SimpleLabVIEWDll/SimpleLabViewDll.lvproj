@@ -16,7 +16,12 @@
 		<Item Name="set32bitInteger.vi" Type="VI" URL="../set32bitInteger.vi"/>
 		<Item Name="set32bitIntegerArray.vi" Type="VI" URL="../set32bitIntegerArray.vi"/>
 		<Item Name="get32bitIntegerArray.vi" Type="VI" URL="../get32bitIntegerArray.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="getError.vi" Type="VI" URL="../getError.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="SimpleLabViewDll" Type="DLL">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -33,7 +38,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CFF9AA86-6149-4B17-952B-64031B4D0EBB}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SimpleLabViewDll.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SimpleLabViewDll/SimpleLabViewDll.dll</Property>
@@ -46,7 +51,7 @@
 				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
 				<Property Name="Dll_headerGUID" Type="Str">{D1043218-2496-40F7-9E9E-146A17F222B9}</Property>
 				<Property Name="Dll_libGUID" Type="Str">{E1F6E0B0-E7F5-4839-BA90-D263A326486B}</Property>
-				<Property Name="Source[0].itemID" Type="Str">{209B2135-6941-454B-A690-7B724F85444E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3D217546-876A-468A-B117-E3E89A9CE480}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/get32bitInteger.vi</Property>
@@ -89,7 +94,11 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/get32bitIntegerArray.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[4].type" Type="Str">ExportedVI</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/getError.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[5].type" Type="Str">ExportedVI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">ALE System Integration</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">SimpleLabViewDll</Property>
 				<Property Name="TgtF_internalName" Type="Str">SimpleLabViewDll</Property>
