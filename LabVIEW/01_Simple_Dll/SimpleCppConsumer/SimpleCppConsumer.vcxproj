@@ -55,8 +55,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)..\builds\SimpleLabViewDll\SimpleLabViewDll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SimpleLabViewDll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\builds\SimpleLabViewDll\SimpleLabViewDll;C:\Program Files (x86)\National Instruments\LabVIEW 2014\cintools;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>labview.lib;SimpleLabViewDll.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy $(SolutionDir)..\builds\SimpleLabViewDll\SimpleLabViewDll\SimpleLabViewDll.dll $(OutDir)</Command>
